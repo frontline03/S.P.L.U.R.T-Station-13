@@ -1186,7 +1186,7 @@
 "dxv" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{dir = 4},/turf/open/floor/plating/asteroid,/area/maintenance/department/medical)
 "dxx" = (/obj/effect/landmark/event_spawn,/turf/open/floor/plasteel,/area/maintenance/department/medical)
 "dyl" = (/obj/structure/disposalpipe/segment{dir = 10},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/open/floor/plasteel,/area/engineering/main)
-"dyo" = (/obj/machinery/power/apc{areastring = "/area/crew_quarters/abandoned_gambling_den"; name = "Gambler Den APC"; pixel_y = -24},/obj/structure/cable,/turf/open/floor/wood{icon_state = "wood-broken"},/area/maintenance/bar)
+"dyo" = (/obj/structure/cable,/obj/machinery/power/apc/auto_name/south,/turf/open/floor/wood{icon_state = "wood-broken"},/area/maintenance/bar)
 "dyy" = (/obj/structure/chair{dir = 4},/turf/open/floor/plating,/area/maintenance/bar)
 "dyA" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/open/floor/plating,/area/cargo/storage)
 "dyJ" = (/obj/machinery/atmospherics/pipe/simple/general/visible{dir = 4},/turf/closed/wall/r_wall,/area/science/mixing)
