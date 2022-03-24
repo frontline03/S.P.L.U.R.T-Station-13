@@ -62,3 +62,8 @@ endmap
 
 map snaxiteststation
 endmap
+
+map cerestation
+	minplayers 75
+endmap
+
