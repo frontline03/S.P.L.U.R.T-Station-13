@@ -7871,6 +7871,25 @@
 	},
 /turf/open/floor/engine,
 /area/hallway/secondary/bridges/serv_sci)
+"cuP" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/item/hilbertshotel/ghostdojo{
+	desc = "A ladder smelling of cum and tears, it leads to a dark abyss of horniness and admin perversion";
+	icon = 'icons/obj/structures.dmi';
+	icon_state = "ladder01";
+	name = "Maintenance Dormitories"
+	},
+/turf/open/floor/plasteel,
+/area/commons/dorms)
 "cve" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/computer/nanite_cloud_controller,
@@ -101286,7 +101305,7 @@ qXT
 qXT
 fqe
 qXT
-qXT
+eNu
 eNu
 rMh
 nKt
@@ -101542,7 +101561,7 @@ qXT
 qXT
 qXT
 qXT
-qXT
+eNu
 eNu
 nOR
 egH
@@ -103858,8 +103877,8 @@ rkU
 sgr
 udz
 fQI
-atK
-igO
+muz
+cuP
 bYt
 xSZ
 xSZ
