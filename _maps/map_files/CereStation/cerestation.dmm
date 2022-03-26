@@ -23434,13 +23434,13 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/machinery/computer/operating{
-	dir = 1
-	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/structure/table,
+/obj/structure/table,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "hkW" = (
@@ -38772,13 +38772,14 @@
 /turf/closed/wall,
 /area/security/courtroom)
 "lZn" = (
-/obj/machinery/computer/operating,
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/structure/table,
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "lZI" = (
@@ -67313,8 +67314,6 @@
 /turf/open/space,
 /area/solars/starboard/aft)
 "uJg" = (
-/obj/structure/table,
-/obj/item/storage/backpack/duffelbag/med/surgery,
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
@@ -67322,6 +67321,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/computer/operating{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "uJj" = (
@@ -71735,8 +71737,6 @@
 /turf/open/floor/carpet,
 /area/service/library)
 "vWO" = (
-/obj/structure/table,
-/obj/item/storage/backpack/duffelbag/med/surgery,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
@@ -71744,6 +71744,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/computer/operating,
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "vWR" = (
