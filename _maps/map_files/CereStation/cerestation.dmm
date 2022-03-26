@@ -9225,31 +9225,6 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
-"cNL" = (
-/obj/machinery/power/smes/engineering,
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/effect/turf_decal/tile/yellow{
-	alpha = 170;
-	dir = 1;
-	name = "engineering corner"
-	},
-/obj/effect/turf_decal/tile/yellow{
-	alpha = 170;
-	dir = 4;
-	name = "engineering corner"
-	},
-/turf/open/floor/plasteel,
-/area/engineering/engine_smes)
 "cNZ" = (
 /obj/structure/disposalpipe/junction{
 	dir = 2;
@@ -29840,6 +29815,9 @@
 	alpha = 170;
 	dir = 8;
 	name = "engineering corner"
+	},
+/obj/machinery/light_switch{
+	pixel_x = -24
 	},
 /turf/open/floor/plasteel,
 /area/engineering/engine_smes)
@@ -60651,7 +60629,9 @@
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/locker)
 "sKU" = (
-/obj/machinery/power/smes/engineering,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
@@ -60665,6 +60645,7 @@
 	dir = 4;
 	name = "engineering corner"
 	},
+/obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel,
 /area/engineering/engine_smes)
 "sLu" = (
@@ -70789,11 +70770,8 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "vJC" = (
-/obj/machinery/power/smes/engineering,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "0-4"
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -70808,6 +70786,11 @@
 	dir = 4;
 	name = "engineering corner"
 	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/engineering,
 /turf/open/floor/plasteel,
 /area/engineering/engine_smes)
 "vJN" = (
@@ -115413,7 +115396,7 @@ rsD
 rsD
 rsD
 djr
-cNL
+vJC
 eTM
 uee
 kqn
