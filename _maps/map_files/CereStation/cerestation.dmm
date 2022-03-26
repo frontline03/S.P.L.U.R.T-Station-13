@@ -3214,6 +3214,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/service/hydroponics)
+"aXJ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/tcommsat/server)
 "aXL" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -6911,6 +6919,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/ai)
+"cfH" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/tcommsat/computer)
 "cgf" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -7730,6 +7746,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
+"csW" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/tcommsat/server)
 "cta" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -13210,6 +13234,9 @@
 /area/hallway/secondary/entry)
 "eaJ" = (
 /obj/effect/baseturf_helper/asteroid,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/circuit/green{
 	luminosity = 2
 	},
@@ -31722,6 +31749,11 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
 "jRA" = (
@@ -37970,6 +38002,11 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
 "lPb" = (
@@ -39555,6 +39592,22 @@
 "mnC" = (
 /turf/closed/wall,
 /area/engineering/engine_smes)
+"mnD" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/green,
+/obj/effect/turf_decal/tile/green,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/tcommsat/computer)
 "mnS" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -40172,6 +40225,11 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
 "myh" = (
@@ -40221,6 +40279,14 @@
 	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
+"mzr" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/circuit/green{
+	luminosity = 2
+	},
+/area/tcommsat/server)
 "mzs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/light{
@@ -40760,6 +40826,11 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
@@ -52721,6 +52792,11 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
 "qol" = (
@@ -55674,6 +55750,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
 "rkw" = (
@@ -57004,6 +57085,14 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"rFl" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/dark,
+/area/tcommsat/server)
 "rFp" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plating,
@@ -61566,6 +61655,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
+"tdn" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plasteel/dark,
+/area/tcommsat/server)
 "tdp" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -67071,6 +67166,10 @@
 /area/service/hydroponics/garden)
 "uGV" = (
 /obj/machinery/power/apc/auto_name/north,
+/obj/structure/cable{
+	icon_state = "0-2";
+	pixel_y = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/server)
 "uHa" = (
@@ -70160,6 +70259,9 @@
 /area/hallway/primary/central)
 "vBL" = (
 /obj/machinery/holopad,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
 "vBP" = (
@@ -119520,8 +119622,8 @@ esN
 gRi
 aAV
 jWj
-ehP
-ehP
+csW
+mzr
 eaJ
 ehP
 ehP
@@ -119777,7 +119879,7 @@ esN
 esN
 fUt
 uzi
-jcc
+aXJ
 iQb
 myf
 iQb
@@ -120033,10 +120135,10 @@ sgG
 sgG
 esN
 uGV
-jcc
-jcc
+rFl
+tdn
 iQb
-oIG
+cfH
 iQb
 jcc
 jcc
@@ -120807,7 +120909,7 @@ dRC
 cuv
 hwQ
 hwQ
-hwQ
+mnD
 lOZ
 vBL
 oIG
