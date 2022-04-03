@@ -21147,6 +21147,11 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
+"gnb" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/hallway/secondary/entry)
 "gnA" = (
 /obj/effect/landmark/start/cargo_technician,
 /obj/effect/turf_decal/tile/yellow{
@@ -50704,6 +50709,7 @@
 /area/engineering/storage/tech)
 "pgn" = (
 /obj/machinery/door/airlock/external/glass,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit)
 "pgw" = (
@@ -56010,6 +56016,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "qOD" = (
@@ -65196,6 +65203,7 @@
 	name = "Security Escape Airlock";
 	req_access_txt = "2"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit)
 "tza" = (
@@ -75928,6 +75936,16 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/medical/chemistry)
+"wyN" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/maintenance/arrivals/north)
 "wyO" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -78077,6 +78095,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "xmb" = (
@@ -122255,7 +122274,7 @@ bMo
 bMo
 bMo
 wnq
-uMd
+gnb
 wnq
 hWp
 hWp
@@ -124058,14 +124077,14 @@ hWp
 hWp
 hWp
 wnq
-uMd
+gnb
 wnq
 hWp
 hWp
 hWp
 hWp
 wnq
-uMd
+gnb
 wnq
 moS
 hWp
@@ -126628,14 +126647,14 @@ hWp
 hWp
 hWp
 wnq
-uMd
+gnb
 wnq
 hWp
 hWp
 hWp
 hWp
 wnq
-uMd
+gnb
 wnq
 moS
 hWp
@@ -130226,14 +130245,14 @@ aCA
 hWp
 hWp
 wnq
-uMd
+gnb
 wnq
 hWp
 hWp
 hWp
 hWp
 wnq
-uMd
+gnb
 wnq
 moS
 hWp
@@ -132796,14 +132815,14 @@ hWp
 hWp
 hWp
 wnq
-uMd
+gnb
 wnq
 hWp
 hWp
 hWp
 hWp
 wnq
-uMd
+gnb
 wnq
 moS
 hWp
@@ -134591,13 +134610,13 @@ bMo
 aCA
 hWp
 wnq
-uMd
+gnb
 wnq
 aCA
 aCA
 hWp
 wnq
-uMd
+gnb
 wnq
 hWp
 bMo
@@ -137436,7 +137455,7 @@ hWp
 hWp
 hWp
 jVq
-lge
+wyN
 jVq
 jVq
 xYr
