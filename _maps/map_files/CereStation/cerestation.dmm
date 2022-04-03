@@ -2025,14 +2025,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
-"aGJ" = (
-/obj/item/radio/intercom{
-	dir = 1;
-	name = "Station Intercom (General)";
-	pixel_y = -29
-	},
-/turf/open/space,
-/area/space)
 "aGW" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/turf_decal/stripes/line{
@@ -5835,7 +5827,7 @@
 	},
 /obj/machinery/power/apc/auto_name/south,
 /turf/open/floor/plasteel,
-/area/maintenance/department/bridge)
+/area/commons/cryopod)
 "bMn" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -6284,8 +6276,8 @@
 	dir = 1;
 	network = list("SS13")
 	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "bRX" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical,
@@ -7499,11 +7491,11 @@
 /turf/open/floor/plating,
 /area/hallway/primary/aft)
 "cjU" = (
-/obj/structure/urinal{
-	pixel_x = 32
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "ckb" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -7983,9 +7975,6 @@
 	},
 /turf/open/floor/plating,
 /area/cargo/office)
-"crK" = (
-/turf/open/floor/plasteel/white,
-/area/space)
 "crN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
@@ -9356,8 +9345,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/closed/wall,
-/area/commons/toilet)
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plasteel/dark,
+/area/commons/cryopod)
 "cLg" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /turf/open/floor/plasteel/cafeteria,
@@ -21221,6 +21211,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"goD" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "goW" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -26312,12 +26308,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/department/crew_quarters/locker)
-"hPb" = (
-/obj/machinery/door/airlock{
-	id_tag = "b3"
-	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
 "hPA" = (
 /obj/machinery/holopad,
 /turf/open/floor/plasteel,
@@ -27485,10 +27475,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
-"inl" = (
-/obj/machinery/recharge_station,
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
 "inC" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -28059,12 +28045,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
-"ivF" = (
-/obj/machinery/door/airlock{
-	id_tag = "b2"
-	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
 "ivK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -32195,11 +32175,8 @@
 /turf/open/floor/grass,
 /area/service/hydroponics/garden)
 "jKP" = (
-/obj/machinery/door/airlock{
-	id_tag = "b1"
-	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "jKU" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -33863,13 +33840,6 @@
 /obj/effect/baseturf_helper/asteroid,
 /turf/open/floor/plasteel,
 /area/security/checkpoint/engineering)
-"klQ" = (
-/obj/item/radio/intercom{
-	name = "Station Intercom (General)";
-	pixel_y = 21
-	},
-/turf/open/space,
-/area/space)
 "klZ" = (
 /obj/structure/table/wood,
 /obj/item/storage/firstaid/brute,
@@ -35367,7 +35337,6 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "kMp" = (
-/obj/machinery/washing_machine,
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
@@ -35377,6 +35346,8 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
+/obj/structure/table,
+/obj/structure/bedsheetbin,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "kMx" = (
@@ -36378,7 +36349,7 @@
 /area/engineering/atmos)
 "lbw" = (
 /turf/closed/wall/r_wall,
-/area/commons/toilet)
+/area/commons/cryopod)
 "lbK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -37625,21 +37596,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
-"lsj" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/structure/toilet{
-	dir = 4
-	},
-/obj/machinery/button/door{
-	id = "b2";
-	name = "Privacy Bolts";
-	normaldoorcontrol = 1;
-	pixel_x = -24
-	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
 "lsn" = (
 /obj/item/wrench,
 /obj/structure/disposalpipe/segment,
@@ -40612,8 +40568,21 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "mjd" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -41735,13 +41704,6 @@
 	},
 /turf/open/floor/plating,
 /area/space/nearstation)
-"mDz" = (
-/obj/item/radio/intercom{
-	name = "Station Intercom (General)";
-	pixel_x = 29
-	},
-/turf/open/space,
-/area/space)
 "mDY" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -42229,8 +42191,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/closed/wall,
-/area/commons/toilet)
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plasteel/dark,
+/area/commons/cryopod)
 "mMf" = (
 /obj/machinery/light{
 	dir = 4
@@ -44437,18 +44400,11 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
 "ntA" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
-/obj/structure/mirror{
-	pixel_x = 32
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "ntC" = (
 /obj/effect/landmark/start/depsec/medical,
 /turf/open/floor/plasteel,
@@ -51505,9 +51461,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security)
-"ptj" = (
-/turf/open/floor/plasteel/cafeteria,
-/area/space)
 "pto" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/turf_decal/tile/blue{
@@ -51961,6 +51914,22 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
+"pBe" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "pBm" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -70354,6 +70323,10 @@
 /obj/structure/rack,
 /turf/open/floor/plating,
 /area/hallway/primary/central)
+"uXG" = (
+/obj/effect/baseturf_helper/asteroid,
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "uXH" = (
 /obj/machinery/camera{
 	c_tag = "Brig Cell 6";
@@ -70954,14 +70927,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
-"veI" = (
-/obj/item/radio/intercom{
-	dir = 4;
-	name = "Station Intercom (General)";
-	pixel_x = -27
-	},
-/turf/open/floor/plating,
-/area/space)
 "veO" = (
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
 /obj/structure/cable{
@@ -71279,11 +71244,11 @@
 /turf/open/floor/wood,
 /area/service/library)
 "viP" = (
-/obj/machinery/door/airlock{
-	name = "Bathroom"
+/obj/machinery/door/airlock/public/glass{
+	name = "Cryogenics "
 	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/turf/open/floor/plasteel/dark,
+/area/commons/cryopod)
 "vjb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -73190,15 +73155,19 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "vMc" = (
-/obj/machinery/button/door{
-	id = "b3";
-	name = "Privacy Bolts";
-	normaldoorcontrol = 1;
-	pixel_x = 24
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
-/obj/machinery/recharge_station,
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "vMh" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -73394,6 +73363,20 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"vOS" = (
+/obj/machinery/cryopod,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "vOZ" = (
 /obj/machinery/light{
 	dir = 4
@@ -73600,6 +73583,9 @@
 /obj/item/storage/box/donkpockets,
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
+"vRD" = (
+/turf/closed/wall,
+/area/commons/cryopod)
 "vRI" = (
 /obj/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -75959,9 +75945,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/tcommsat/computer)
-"wAf" = (
-/turf/open/floor/plasteel,
-/area/space)
 "wAg" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -76049,6 +76032,20 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/hos)
+"wAU" = (
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "wAV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
@@ -76839,14 +76836,11 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "wRr" = (
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "wRA" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -78132,11 +78126,6 @@
 /turf/open/floor/plasteel,
 /area/security/checkpoint/engineering)
 "xmE" = (
-/obj/structure/table,
-/obj/structure/bedsheetbin,
-/obj/machinery/light{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -79347,17 +79336,19 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/structure/toilet{
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/button/door{
-	id = "b1";
-	name = "Privacy Bolts";
-	normaldoorcontrol = 1;
-	pixel_x = -24
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
 	},
-/turf/open/floor/plasteel/freezer,
-/area/commons/toilet)
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "xEq" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -79799,6 +79790,13 @@
 	},
 /turf/open/floor/carpet,
 /area/command/bridge)
+"xLh" = (
+/obj/machinery/computer/cryopod{
+	dir = 10;
+	pixel_y = -26
+	},
+/turf/open/floor/plasteel,
+/area/commons/cryopod)
 "xLu" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable{
@@ -104148,10 +104146,10 @@ lbw
 lbw
 lbw
 lbw
-xvF
-xvF
-xvF
-xvF
+vRD
+vRD
+vRD
+vRD
 rlV
 pVh
 eeH
@@ -104226,7 +104224,7 @@ ycH
 moS
 moS
 moS
-mDz
+moS
 moS
 moS
 ycH
@@ -104400,15 +104398,15 @@ jGh
 nuL
 eKQ
 bFl
-xvF
-inl
+vRD
+vMc
 miY
 vMc
-xvF
-lsj
-xvF
+pBe
 xEk
-xvF
+pBe
+xEk
+vRD
 acw
 pVh
 eeH
@@ -104483,8 +104481,8 @@ ycH
 moS
 moS
 moS
-wAf
-hWp
+moS
+moS
 moS
 ycH
 hWp
@@ -104657,15 +104655,15 @@ cBb
 czK
 czK
 bMi
-xvF
-xvF
-hPb
-xvF
-xvF
-ivF
-xvF
+vRD
 jKP
-xvF
+jKP
+jKP
+jKP
+jKP
+jKP
+jKP
+vRD
 asq
 pVh
 eeH
@@ -104740,8 +104738,8 @@ ycH
 moS
 moS
 moS
-crK
-hWp
+moS
+moS
 moS
 ycH
 hWp
@@ -104914,15 +104912,15 @@ xjx
 fQI
 lNW
 nOM
-xvF
-gAz
-gAz
-kGR
-gAz
-tAZ
-gAz
-gAz
-xvF
+vRD
+vOS
+jKP
+uXG
+jKP
+goD
+jKP
+xLh
+vRD
 acw
 pVh
 eeH
@@ -104996,8 +104994,8 @@ hWp
 ycH
 moS
 moS
-aGJ
-veI
+moS
+moS
 moS
 moS
 ycH
@@ -105171,15 +105169,15 @@ eha
 czK
 czK
 iyP
-xvF
-gAz
+vRD
+wAU
 cjU
-cjU
+jKP
 wRr
 ntA
-gAz
+jKP
 bRT
-xvF
+vRD
 acw
 bFn
 fKF
@@ -105254,8 +105252,8 @@ ycH
 moS
 moS
 moS
-ptj
-klQ
+moS
+moS
 moS
 ycH
 hWp
@@ -105428,15 +105426,15 @@ igO
 igO
 igO
 vUn
-xvF
-xvF
-xvF
-xvF
+vRD
+vRD
+vRD
+viP
 mLH
 cLe
 viP
-xvF
-xvF
+vRD
+vRD
 acw
 pVh
 eeH
@@ -105511,8 +105509,8 @@ ycH
 moS
 moS
 moS
-hWp
-hWp
+moS
+moS
 moS
 ycH
 hWp
@@ -105688,7 +105686,7 @@ mYI
 eMe
 igO
 kMp
-llm
+mYI
 xmE
 qls
 mYI
